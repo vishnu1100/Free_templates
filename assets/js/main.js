@@ -1,10 +1,17 @@
-/**
-* Template Name: PhotoFolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ // Function to change the title
+ function changeTitle(newTitle) {
+  document.title = newTitle;
+}
+
+// Event listener for blur event
+window.addEventListener('blur', function() {
+  changeTitle("CUM bAck A$$Hole");
+});
+
+// Event listener for focus event
+window.addEventListener('focus', function() {
+  changeTitle("<: Close If U R Alien :>");
+});
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
